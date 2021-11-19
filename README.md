@@ -1,2 +1,1 @@
-# starter
-project starter template
+# Vue 3 starter

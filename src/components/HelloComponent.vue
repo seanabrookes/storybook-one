@@ -6,7 +6,7 @@
       name: 'hello',
       data() {
          return {
-            user: 'Sean'
+            user: 'you'
          }
       }
 

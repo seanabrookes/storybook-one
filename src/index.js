@@ -1,16 +1,6 @@
-import Vue from 'vue'
+import { createApp } from 'vue';
 import App from './App.vue'
 
-// new Vue({
-//    render: h => h(App)
-//  }).$mount('#app');
+const app = createApp(App);
 
-
- new Vue({
-   el: '#app',
-   template: '<App />',
-   components: { App },
-   data: {
-     user: 'Shelley'
-   }
- });
+app.mount('#app');
